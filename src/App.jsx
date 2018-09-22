@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 import Username from "./components/username.jsx"
+import ChatScreen from './ChatScreen.js'
+class App extends React.Component {
   constructor(){
     super()
     this.state = {
@@ -36,3 +38,4 @@ import Username from "./components/username.jsx"
       </div>
   )}
 }
+export default App

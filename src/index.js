@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom'
 import App from './App.jsx'
 import './index.css'
 import Username from './components/SendMessage.js'
-import SendMessageForm from './components/SendMessage.js'
 
 
 
@@ -13,7 +12,6 @@ class Index extends React.Component {
       <div>
       <App />
         <Username />
-        <SendMessageForm />
       </div>
     )
   }
