@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Username from "./components/username.jsx"
 
-class App extends React.Component {
+class App extends Component {
   constructor(){
   super()
   this.onUsernameSubmitted = this.onUsernameSubmitted.bind(this)
@@ -30,4 +30,4 @@ onUsernameSubmitted(username) {
   }
 }
 
-export default App
+export default App;
